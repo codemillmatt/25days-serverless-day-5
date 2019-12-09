@@ -34,5 +34,12 @@
     <string>SantaTalk</string>
     <key>XSAppIconAssets</key>
     <string>Assets.xcassets/AppIcon.appiconset</string>
+  <key>UIAppFonts</key>
+  <array>
+    <string>futura_book.ttf</string>
+    <string>futura_heavy.ttf</string>
+    <string>futura_medium.ttf</string>
+    <string>futura_extrablack.ttf</string>
+  </array>
 </dict>
 </plist>

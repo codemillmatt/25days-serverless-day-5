@@ -67,6 +67,10 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <BundleResource Include="Resources\futura_book.ttf" />
+    <BundleResource Include="Resources\futura_extrablack.ttf" />
+    <BundleResource Include="Resources\futura_heavy.ttf" />
+    <BundleResource Include="Resources\futura_medium.ttf" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -145,6 +149,15 @@
       <Project>{8937b8dc-4533-4834-93bc-5b3e527af40e}</Project>
       <Name>SantaTalk.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\star%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\star%403x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
